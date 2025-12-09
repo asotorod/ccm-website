@@ -18,20 +18,20 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-primary-600 text-white px-6 py-3 rounded-lg font-heading font-semibold 
-           hover:bg-primary-700 transition-all duration-300 inline-block text-center
+    @apply bg-orange-500 text-white px-6 py-3 rounded-lg font-heading font-semibold 
+           hover:bg-orange-600 transition-all duration-300 inline-block text-center
            shadow-lg hover:shadow-xl hover:-translate-y-0.5;
   }
   
   .btn-secondary {
-    @apply bg-secondary-500 text-dark-900 px-6 py-3 rounded-lg font-heading font-semibold 
-           hover:bg-secondary-400 transition-all duration-300 inline-block text-center
+    @apply bg-navy-800 text-white px-6 py-3 rounded-lg font-heading font-semibold 
+           hover:bg-navy-700 transition-all duration-300 inline-block text-center
            shadow-lg hover:shadow-xl hover:-translate-y-0.5;
   }
   
   .btn-outline {
     @apply border-2 border-white text-white px-6 py-3 rounded-lg font-heading font-semibold 
-           hover:bg-white hover:text-dark-900 transition-all duration-300 inline-block text-center;
+           hover:bg-white hover:text-navy-900 transition-all duration-300 inline-block text-center;
   }
   
   .section-padding {
