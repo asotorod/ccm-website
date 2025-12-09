@@ -25,7 +25,7 @@ function Contact() {
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Info */}
           <div>
-            <span className="text-primary-600 font-semibold text-sm uppercase tracking-wider">Get In Touch</span>
+            <span className="text-[#E8913A] font-semibold text-sm uppercase tracking-wider">Get In Touch</span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-dark-900 mt-2 mb-6">
               Request Your Free Estimate
             </h2>
@@ -37,14 +37,14 @@ function Contact() {
             {/* Contact Methods */}
             <div className="space-y-6 mb-8">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg className="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-12 h-12 bg-[#E8913A]/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg className="w-6 h-6 text-[#E8913A]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
                 </div>
                 <div>
                   <h3 className="font-heading font-bold text-dark-900">Call Us</h3>
-                  <a href="tel:+17325551234" className="text-primary-600 text-lg font-semibold hover:text-primary-700">
+                  <a href="tel:+17325551234" className="text-[#E8913A] text-lg font-semibold hover:text-[#d17f2f]">
                     (732) 555-1234
                   </a>
                   <p className="text-gray-500 text-sm">Mon-Fri: 8am-6pm, Sat: 9am-3pm</p>
@@ -52,14 +52,14 @@ function Contact() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg className="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-12 h-12 bg-[#E8913A]/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg className="w-6 h-6 text-[#E8913A]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
                 <div>
                   <h3 className="font-heading font-bold text-dark-900">Email Us</h3>
-                  <a href="mailto:info@123ccm.com" className="text-primary-600 text-lg font-semibold hover:text-primary-700">
+                  <a href="mailto:info@123ccm.com" className="text-[#E8913A] text-lg font-semibold hover:text-[#d17f2f]">
                     info@123ccm.com
                   </a>
                   <p className="text-gray-500 text-sm">We respond within 24 hours</p>
@@ -67,16 +67,16 @@ function Contact() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg className="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-12 h-12 bg-[#E8913A]/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg className="w-6 h-6 text-[#E8913A]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-heading font-bold text-dark-900">Visit Us</h3>
-                  <p className="text-gray-600">123 Main Street</p>
-                  <p className="text-gray-600">Edison, NJ 08817</p>
+                  <h3 className="font-heading font-bold text-dark-900">Location</h3>
+                  <p className="text-gray-600">Ossining, NY</p>
+                  <p className="text-gray-500 text-sm">Serving the NY Metro Area</p>
                 </div>
               </div>
             </div>
@@ -84,14 +84,14 @@ function Contact() {
             {/* Trust Badge */}
             <div className="bg-gray-50 rounded-xl p-6">
               <div className="flex items-center gap-4">
-                <div className="w-16 h-16 bg-primary-600 rounded-full flex items-center justify-center flex-shrink-0">
+                <div className="w-16 h-16 bg-[#E8913A] rounded-full flex items-center justify-center flex-shrink-0">
                   <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                   </svg>
                 </div>
                 <div>
                   <h3 className="font-heading font-bold text-dark-900">Licensed & Insured</h3>
-                  <p className="text-gray-600 text-sm">NJ Home Improvement Contractor #13VH12345678</p>
+                  <p className="text-gray-600 text-sm">Home Improvement Contractor #13VH12345678</p>
                   <p className="text-gray-600 text-sm">Fully insured for your protection</p>
                 </div>
               </div>
@@ -111,7 +111,7 @@ function Contact() {
                   required
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#E8913A] focus:border-[#E8913A] transition-colors"
                   placeholder="John Smith"
                 />
               </div>
@@ -126,7 +126,7 @@ function Contact() {
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#E8913A] focus:border-[#E8913A] transition-colors"
                     placeholder="john@example.com"
                   />
                 </div>
@@ -139,8 +139,8 @@ function Contact() {
                     required
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors"
-                    placeholder="(732) 555-1234"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#E8913A] focus:border-[#E8913A] transition-colors"
+                    placeholder="(914) 555-1234"
                   />
                 </div>
               </div>
@@ -153,7 +153,7 @@ function Contact() {
                   required
                   value={formData.service}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#E8913A] focus:border-[#E8913A] transition-colors"
                 >
                   <option value="">Select a service</option>
                   <option value="roofing">Roofing</option>
@@ -174,12 +174,12 @@ function Contact() {
                   rows={4}
                   value={formData.message}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors resize-none"
+                  className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#E8913A] focus:border-[#E8913A] transition-colors resize-none"
                   placeholder="Tell us about your project..."
                 ></textarea>
               </div>
 
-              <button type="submit" className="w-full btn-primary text-lg py-4">
+              <button type="submit" className="w-full bg-[#E8913A] hover:bg-[#d17f2f] text-white font-heading font-semibold text-lg py-4 rounded-lg transition-colors">
                 Request Free Estimate
               </button>
 
