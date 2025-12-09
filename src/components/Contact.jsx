@@ -44,8 +44,8 @@ function Contact() {
                 </div>
                 <div>
                   <h3 className="font-heading font-bold text-dark-900">Call Us</h3>
-                  <a href="tel:+17325551234" className="text-[#E8913A] text-lg font-semibold hover:text-[#d17f2f]">
-                    (732) 555-1234
+                  <a href="tel:+19145551234" className="text-[#E8913A] text-lg font-semibold hover:text-[#d17f2f]">
+                    (914) 555-1234
                   </a>
                   <p className="text-gray-500 text-sm">Mon-Fri: 8am-6pm, Sat: 9am-3pm</p>
                 </div>
@@ -91,7 +91,7 @@ function Contact() {
                 </div>
                 <div>
                   <h3 className="font-heading font-bold text-dark-900">Licensed & Insured</h3>
-                  <p className="text-gray-600 text-sm">Home Improvement Contractor #13VH12345678</p>
+                  <p className="text-gray-600 text-sm">NY Home Improvement Contractor #12345678</p>
                   <p className="text-gray-600 text-sm">Fully insured for your protection</p>
                 </div>
               </div>
