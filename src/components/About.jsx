@@ -27,7 +27,7 @@ function About() {
               />
             </div>
             {/* Experience Badge */}
-            <div className="absolute -bottom-6 -right-6 bg-[#F7941D] text-white p-6 rounded-2xl shadow-xl hidden md:block">
+            <div className="absolute -bottom-6 -right-6 bg-[#FF5722] text-white p-6 rounded-2xl shadow-xl hidden md:block">
               <p className="text-4xl font-heading font-bold">18+</p>
               <p className="text-orange-100">Years of Excellence</p>
             </div>
@@ -35,7 +35,7 @@ function About() {
 
           {/* Content Side */}
           <div>
-            <span className="text-[#F7941D] font-semibold text-sm uppercase tracking-wider">About CCM</span>
+            <span className="text-[#FF5722] font-semibold text-sm uppercase tracking-wider">About CCM</span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-dark-900 mt-2 mb-6">
               Building Trust, One Home at a Time
             </h2>
@@ -52,7 +52,7 @@ function About() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
               {stats.map((stat) => (
                 <div key={stat.label} className="text-center p-4 bg-white rounded-xl shadow-sm">
-                  <p className="text-2xl md:text-3xl font-heading font-bold text-[#F7941D]">{stat.number}</p>
+                  <p className="text-2xl md:text-3xl font-heading font-bold text-[#FF5722]">{stat.number}</p>
                   <p className="text-gray-600 text-sm">{stat.label}</p>
                 </div>
               ))}
