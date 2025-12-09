@@ -27,7 +27,7 @@ function ServiceAreas() {
       <div className="container-custom">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <span className="text-[#E8913A] font-semibold text-sm uppercase tracking-wider">Where We Work</span>
+          <span className="text-[#F7941D] font-semibold text-sm uppercase tracking-wider">Where We Work</span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-dark-900 mt-2 mb-4">
             Serving the NY Metro Area
           </h2>
@@ -42,8 +42,8 @@ function ServiceAreas() {
           {/* Map Placeholder */}
           <div className="bg-gray-100 rounded-2xl p-8 h-full min-h-[400px] flex items-center justify-center">
             <div className="text-center">
-              <div className="w-20 h-20 bg-[#E8913A]/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-10 h-10 text-[#E8913A]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="w-20 h-20 bg-[#F7941D]/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <svg className="w-10 h-10 text-[#F7941D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
@@ -59,7 +59,7 @@ function ServiceAreas() {
             {counties.map((county) => (
               <div key={county.name} className="bg-gray-50 rounded-xl p-6">
                 <h3 className="font-heading font-bold text-lg text-dark-900 mb-3 flex items-center gap-2">
-                  <svg className="w-5 h-5 text-[#E8913A]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#F7941D]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   </svg>
                   {county.name}
@@ -68,7 +68,7 @@ function ServiceAreas() {
                   {county.towns.map((town) => (
                     <span 
                       key={town}
-                      className="bg-white px-3 py-1.5 rounded-full text-sm text-gray-700 border border-gray-200 hover:border-[#E8913A] hover:text-[#E8913A] transition-colors cursor-default"
+                      className="bg-white px-3 py-1.5 rounded-full text-sm text-gray-700 border border-gray-200 hover:border-[#F7941D] hover:text-[#F7941D] transition-colors cursor-default"
                     >
                       {town}
                     </span>
@@ -82,7 +82,7 @@ function ServiceAreas() {
         {/* CTA */}
         <div className="mt-12 text-center">
           <p className="text-gray-600 mb-4">Not sure if we service your area?</p>
-          <a href="#contact" className="bg-[#E8913A] hover:bg-[#d17f2f] text-white font-heading font-semibold px-6 py-3 rounded-lg transition-colors inline-block">
+          <a href="#contact" className="bg-[#F7941D] hover:bg-[#e8850f] text-white font-heading font-semibold px-6 py-3 rounded-lg transition-colors inline-block">
             Contact Us to Find Out
           </a>
         </div>
