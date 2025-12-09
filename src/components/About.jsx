@@ -21,13 +21,13 @@ function About() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
                 alt="CCM Construction team at work"
                 className="w-full h-[400px] md:h-[500px] object-cover"
               />
             </div>
             {/* Experience Badge */}
-            <div className="absolute -bottom-6 -right-6 bg-[#E8913A] text-white p-6 rounded-2xl shadow-xl hidden md:block">
+            <div className="absolute -bottom-6 -right-6 bg-[#F7941D] text-white p-6 rounded-2xl shadow-xl hidden md:block">
               <p className="text-4xl font-heading font-bold">18+</p>
               <p className="text-orange-100">Years of Excellence</p>
             </div>
@@ -35,7 +35,7 @@ function About() {
 
           {/* Content Side */}
           <div>
-            <span className="text-[#E8913A] font-semibold text-sm uppercase tracking-wider">About CCM</span>
+            <span className="text-[#F7941D] font-semibold text-sm uppercase tracking-wider">About CCM</span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-dark-900 mt-2 mb-6">
               Building Trust, One Home at a Time
             </h2>
@@ -52,7 +52,7 @@ function About() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
               {stats.map((stat) => (
                 <div key={stat.label} className="text-center p-4 bg-white rounded-xl shadow-sm">
-                  <p className="text-2xl md:text-3xl font-heading font-bold text-[#E8913A]">{stat.number}</p>
+                  <p className="text-2xl md:text-3xl font-heading font-bold text-[#F7941D]">{stat.number}</p>
                   <p className="text-gray-600 text-sm">{stat.label}</p>
                 </div>
               ))}
