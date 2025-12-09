@@ -14,8 +14,8 @@ function Header() {
 
   return (
     <header className="sticky top-0 z-50">
-      {/* Top Bar - Orange like On The Spot */}
-      <div className="bg-[#E8913A] text-white py-2">
+      {/* Top Bar - Bright Orange like On The Spot */}
+      <div className="bg-[#F7941D] text-white py-2">
         <div className="container-custom flex flex-wrap justify-between items-center text-sm">
           <div className="flex items-center gap-6">
             <a href="tel:+19145551234" className="flex items-center gap-2 hover:text-white/80 transition-colors">
@@ -47,7 +47,7 @@ function Header() {
       </div>
 
       {/* Main Navigation - Dark Navy like On The Spot */}
-      <nav className="bg-[#1a2744] shadow-lg">
+      <nav className="bg-[#1E3A5F] shadow-lg">
         <div className="container-custom py-3">
           <div className="flex justify-between items-center">
             {/* Logo */}
@@ -65,7 +65,7 @@ function Header() {
                 <a
                   key={link.name}
                   href={link.path}
-                  className="font-heading font-medium text-white hover:text-[#E8913A] transition-colors"
+                  className="font-heading font-medium text-white hover:text-[#F7941D] transition-colors"
                 >
                   {link.name}
                 </a>
@@ -76,7 +76,7 @@ function Header() {
             <div className="hidden md:block">
               <a 
                 href="/#contact" 
-                className="bg-[#E8913A] hover:bg-[#d17f2f] text-white font-heading font-semibold px-6 py-3 rounded-lg transition-colors"
+                className="bg-[#F7941D] hover:bg-[#e8850f] text-white font-heading font-semibold px-6 py-3 rounded-lg transition-colors"
               >
                 Get Free Estimate
               </a>
@@ -106,7 +106,7 @@ function Header() {
                   <a
                     key={link.name}
                     href={link.path}
-                    className="font-heading font-medium text-white hover:text-[#E8913A] transition-colors"
+                    className="font-heading font-medium text-white hover:text-[#F7941D] transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
                     {link.name}
@@ -114,7 +114,7 @@ function Header() {
                 ))}
                 <a 
                   href="/#contact" 
-                  className="bg-[#E8913A] hover:bg-[#d17f2f] text-white font-heading font-semibold px-6 py-3 rounded-lg transition-colors text-center mt-2"
+                  className="bg-[#F7941D] hover:bg-[#e8850f] text-white font-heading font-semibold px-6 py-3 rounded-lg transition-colors text-center mt-2"
                 >
                   Get Free Estimate
                 </a>
