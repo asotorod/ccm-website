@@ -53,7 +53,7 @@ function Header() {
             {/* Logo */}
             <Link to="/" className="flex items-center">
               <img 
-                src="/Logo ccm.png" 
+                src="/ccblogo.png" 
                 alt="CCM Construction Inc." 
                 className="h-14 md:h-16 w-auto"
               />
